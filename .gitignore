@@ -1,0 +1,37 @@
+# ide and tools extra
+# .gitignore
+*.idea/
+*.orig
+*.sublime-project
+*.sublime-workspace
+*.project
+
+# archivos temporales
+*.pyc
+*.pyo
+*.bak
+*.bak2
+*.log
+*/__pycache__/
+
+# db
+src/db.sqlite3
+deploy/dump/leyes/H
+
+# migrations
+src/apps/*/migrations/__init__.py
+src/apps/*/migrations/__pycache__
+src/apps/*/migrations/0*
+*/migrations/0*
+*/migrations/__pycache__/
+*/__pycache__/
+
+# config
+/src/config/settings/dev.py
+
+# static y temporales
+src/media/*
+src/static/*
+
+# documentacion
+docs/build
