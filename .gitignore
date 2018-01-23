@@ -27,7 +27,7 @@ src/apps/*/migrations/0*
 */__pycache__/
 
 # config
-/src/config/settings/dev.py
+/src/config/settings/local.py
 
 # static y temporales
 src/media/*
